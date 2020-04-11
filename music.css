@@ -56,8 +56,7 @@ html {
 }
 
 .contact:hover {
-  background-color: grey;
-  border: 0.1px solid black;
+  background-color: #0fa6d9;
 }
 
 .img-but {
@@ -83,6 +82,10 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+/*background-image: url('violins.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;*/
 }
 
 .about-me {
@@ -96,13 +99,13 @@ html {
   justify-content: space-between;
 }
 
-.am4 {
-  padding-bottom: 20px;
+.am3, .am4 {
+  padding-bottom: 10px;
 }
 
 .violins {
-  width: 400px;
-  height: 400px;
+  width: 30vw;
+  height: 60vh;
   margin: 30px;
 }
 
